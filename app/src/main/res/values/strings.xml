@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Receipt Sketch</string>
+    <string name="pen">PEN</string>
+    <string name="eraser">ERASER</string>
+    <string name="clear">CLEAR</string>
+    <string name="print">PRINT</string>
+    <string name="clear_question">Clear drawing?</string>
+    <string name="cancel">CANCEL</string>
+    <string name="draw_first">Draw something first</string>
+    <string name="printed">Printed</string>
+</resources>

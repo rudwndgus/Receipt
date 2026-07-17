@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.receiptsketch.app.DrawingView
+        android:id="@+id/drawingView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:background="@color/control_bar"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/penButton"
+            style="@style/ControlButton"
+            android:text="@string/pen" />
+
+        <Button
+            android:id="@+id/eraserButton"
+            style="@style/ControlButton"
+            android:text="@string/eraser" />
+
+        <Button
+            android:id="@+id/clearButton"
+            style="@style/ControlButton"
+            android:text="@string/clear" />
+
+        <Button
+            android:id="@+id/printButton"
+            style="@style/ControlButton"
+            android:text="@string/print" />
+    </LinearLayout>
+
+</LinearLayout>
